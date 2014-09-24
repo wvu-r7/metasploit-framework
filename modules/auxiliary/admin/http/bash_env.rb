@@ -11,7 +11,7 @@ class Metasploit4 < Msf::Auxiliary
 
   def initialize(info = {})
     super(update_info(info,
-      'Name' => 'Bash Specially-Crafted Environment Variables Code Injection Attack',
+      'Name' => 'Bash Specially-Crafted Environment Variable Code Injection via Apache mod_cgi',
       'Description' => %q{
         This module exploits a remote command injection vulnerability in bash,
         a popular shell environment, over an HTTP CGI vector. By passing a specially-crafted
